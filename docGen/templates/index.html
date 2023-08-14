@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>docGen Service</title>
+    <link href="{{ url_for('static', filename='root.css') }}" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="two"><h1>docGen Service</h1></div>
+<div class="post-wrap">
+
+    <div class="post-item">
+        <div class="item-content">
+            <div class="item-icon group"></div>
+            <div class="item-body">
+                <h3>Generate Documentation</h3>
+                <p>Upload a file from your system and specify output format.</p>
+            </div>
+            <div class="item-footer">
+                <a href="docParse" class="link"><span>Generate Text</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-item">
+        <div class="item-content">
+            <div class="item-icon tree"></div>
+            <div class="item-body">
+                <h3>Parse & Generate Documentation</h3>
+                <p>Use docParse service to parse text from specified URL and then generate documentation.</p>
+            </div>
+            <div class="item-footer">
+                <a href="docParse" class="link"><span>Parse & Generate Text</span></a>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
